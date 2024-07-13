@@ -3,6 +3,10 @@ package com.adobe.aem.commons.assetshare.util.impl;
 import com.adobe.aem.commons.assetshare.content.AssetModel;
 import org.apache.commons.lang3.StringUtils;
 
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class AssetExpressionEvaluator {
 
     public static final String VAR_ASSET_PATH = "${asset.path}";
