@@ -6,6 +6,7 @@ import org.osgi.annotation.versioning.ProviderType;
 
 import java.util.Collection;
 
+@ProviderType
 public interface RenditionExpressionEvaluator {
     String VAR_ASSET_COUNT = "${asset.count}";
     String VAR_ASSET_PATH = "${asset.path}";
